@@ -4,6 +4,29 @@
 
 This dataset contains **5 days of production gameplay data** (Feb 10-14, 2026) from **LILA BLACK**, a battle-royale style game. Each file records one player's journey through one match.
 
+## Setup & Run (Streamlit)
+
+From the `player_data_2/` folder:
+
+```bash
+# 1) Create & activate venv (Windows PowerShell)
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+# 2) Install dependencies
+python -m pip install -r requirements.txt
+
+# 3) Run the main app
+streamlit run app.py
+```
+
+- **Local URL**: Streamlit prints it in the terminal (typically `http://localhost:8501`).
+- **Viewer (raw parquet explorer)**:
+
+```bash
+streamlit run viewer.py
+```
+
 ### Quick Stats
 
 | Metric | Value |
