@@ -1,0 +1,1 @@
+{"match_id": "a7a60c42-249b-4fab-855c-7c0a969b5f76.nakama-0", "map_id": "Lockdown", "date": "February_13", "match_duration_s": 0, "players": {"b7144326-8fb1-4b46-9f64-cb4789961e6e": {"is_bot": false, "events": [{"ts": 0, "event": "Position", "x": 277.28959375, "y": 316.42506249999997}, {"ts": 0, "event": "BotKilled", "x": 277.28959375, "y": 316.42506249999997}]}}}
