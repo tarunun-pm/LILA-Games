@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "player_data_tools"
+version = "0.1.0"
+description = "Tools for working with player data and minimaps"
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "Pillow",
+    "plotly",
+    "pyarrow",
+    "streamlit",
+]
+
+[tool.setuptools]
+py-modules = ["app", "viewer"]
