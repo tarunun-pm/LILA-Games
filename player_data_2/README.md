@@ -4,6 +4,10 @@
 
 This dataset contains **5 days of production gameplay data** (Feb 10-14, 2026) from **LILA BLACK**, a battle-royale style game. Each file records one player's journey through one match.
 
+## Live app
+
+- **Streamlit**: https://player-journey-black.streamlit.app/
+
 ## Setup & Run (Streamlit)
 
 From the `player_data_2/` folder:
