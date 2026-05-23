@@ -165,7 +165,7 @@ all_matches = index["matches"]
 # SIDEBAR
 # ══════════════════════════════════════════════
 with st.sidebar:
-    st.markdown('<p class="hdr">LILA BLACK</p>', unsafe_allow_html=True)
+    st.markdown('<p class="hdr">Tarun</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub">Player Journey Tool v1.0</p>', unsafe_allow_html=True)
 
     # ── Map Selector ──
